@@ -24,7 +24,7 @@ class EmployeesAddForm extends Component {
             return alert("Enter name and salary!!!")
         }
         this.props.onAdd(this.state.name, this.state.salary);
-        alert("Name: " + this.state.name + ". Salary: " + this.state.salary);
+        // alert("Name: " + this.state.name + ". Salary: " + this.state.salary);
         this.setState({
             name: '',
             salary: ''
